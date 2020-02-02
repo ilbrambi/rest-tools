@@ -1,0 +1,19 @@
+{
+  "name": "ilbrambi/rest-tools",
+  "description": "Provides a set of tools to use via Http requests",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dario Barattini",
+      "email": "me@dariobarattini.it"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"ilbrambi\\RestTools\\": "src/"}
+  },
+  "require": {
+    "marcj/php-rest-service": "^0.1.7"
+  }
+}
